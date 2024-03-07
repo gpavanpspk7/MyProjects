@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 import jakarta.persistence.criteria.Predicate;
 
-@Configuration
+@Component
 public class UserDaoService {
 
 	private static List<User>users=new ArrayList<>();
